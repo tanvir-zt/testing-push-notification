@@ -16,7 +16,7 @@ function App() {
       theme: "darkblue",
       duration: 5000,
       icon: "https://cdn-icons-png.flaticon.com/512/1822/1822899.png",
-      native: false,
+      native: true,
       onClick: () => console.log("Notification Clicked!"),
     });
   };
